@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esraa Tantawy's Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f4f4f4; }
+        header, footer { background-color: #222; color: #fff; padding: 10px 20px; text-align: center; }
+        main { padding: 20px; }
+        section { margin-bottom: 20px; background-color: #fff; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1, h2 { color: #444; }
+        p { line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        @media (max-width: 600px) { .container { width: 95%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>"Passion is energy. Feel the power that comes from focusing on what excites you." - Oprah Winfrey</p>
+    </header>
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm Esraa. I am currently pursuing a Bachelor's degree in Mass Communication with a major in PR and Advertising at the Canadian International College. I am passionate about digital marketing and web development.</p>
+        </section>
+        <section id="projects">
+            <h2>Some of My Projects</h2>
+            <h3>Fit and Fix Automotive Service Center</h3>
+            <p>Organized successful promotional events and crafted engaging marketing campaigns for Fit and Fix.</p>
+            <h3>Canadian International College</h3>
+            <p>Developed comprehensive promotional materials for the 20th anniversary of the Canadian International College.</p>
+            <h3>Egyptian IVF Center</h3>
+            <p>Created a director's treatment to develop a compelling narrative for their promotional materials.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:Etantawy732002@gmail.com">Etantawy732002@gmail.com</a></p>
+            <p>Phone: 01151714877</p>
+            <p>Location: Cairo, Egypt</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Esraa Tantawy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
